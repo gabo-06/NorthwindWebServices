@@ -1,3 +1,5 @@
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.WebApi\obj\Debug\ServiciosWeb.WebApi.csprojAssemblyReference.cache
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.WebApi\obj\Debug\ServiciosWeb.WebApi.csproj.CoreCompileInputs.cache
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.WebApi\bin\ApplicationInsights.config
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.WebApi\bin\ServiciosWeb.WebApi.dll.config
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.WebApi\bin\ServiciosWeb.WebApi.dll
@@ -107,8 +109,6 @@ C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.WebApi\bin\es\System.Web
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.WebApi\bin\es\System.Web.WebPages.resources.dll
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.WebApi\bin\es\System.Web.WebPages.Deployment.resources.dll
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.WebApi\bin\es\System.Web.WebPages.Razor.resources.dll
-C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.WebApi\obj\Debug\ServiciosWeb.WebApi.csprojAssemblyReference.cache
-C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.WebApi\obj\Debug\ServiciosWeb.WebApi.csproj.CoreCompileInputs.cache
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.WebApi\obj\Debug\ServiciosWeb.WebApi.csproj.CopyComplete
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.WebApi\obj\Debug\ServiciosWeb.WebApi.dll
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.WebApi\obj\Debug\ServiciosWeb.WebApi.pdb
