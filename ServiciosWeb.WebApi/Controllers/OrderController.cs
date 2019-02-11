@@ -6,6 +6,7 @@ using System.Net.Http;
 using System.Web.Http;
 using ServiciosWeb.Datos.Modelo;
 using ServiciosWeb.WebApi.Models;
+using AutoMapper;
 
 namespace ServiciosWeb.WebApi.Controllers
 {
@@ -17,29 +18,55 @@ namespace ServiciosWeb.WebApi.Controllers
         /// Permite consultar la información de todas las órdenes.
         /// </summary>
         /// <returns></returns>
-        public IEnumerable<OrderP> Get()
+        [HttpGet]
+        public IEnumerable<ServiciosWeb.WebApi.Models.Order> Get()
         {
-            // var orders = BD.Orders.Take(2).ToList();
-            var orders = (from o in BD.Orders
-                          select new OrderP
-                          {
-                              orderID = o.OrderID,
-                              customer = new CustomerP { CustomerID = o.Customers.CustomerID, CompanyName = o.Customers.CompanyName },
-                              orderDate = o.OrderDate,
-                              requiredDate = o.RequiredDate,
-                              shippedDate = o.ShippedDate,
-                              shipName = o.ShipName,
-                              shipAddress = o.ShipAddress,
-                              shipCity = o.ShipCity,
-                              shipRegion = o.ShipRegion,
-                              shipPostalCode = o.ShipPostalCode,
-                              shipCountry = o.ShipCountry,
-                              employee = new EmployeeP { EmployeeID = o.Employees.EmployeeID, FirstName = o.Employees.FirstName, LastName = o.Employees.LastName },
-                              shipper = new ShipperP { ShipperID = o.Shippers.ShipperID, CompanyName = o.Shippers.CompanyName },
-                              freight = o.Freight
-                          }).Take(1).ToList();
+            #region Variables
+            IEnumerable<ServiciosWeb.Datos.Modelo.Order> ordersBusinessModel;
+            IEnumerable<ServiciosWeb.WebApi.Models.Order> ordersViewModel;
+            #endregion
 
-            return orders;
+            try
+            {
+                #region Consulta el modelo y retorna la data.
+                ordersBusinessModel = BD.Orders.Take(10).ToList();
+                ordersViewModel = Mapper.Map<IEnumerable<ServiciosWeb.Datos.Modelo.Order>,
+                                             IEnumerable<ServiciosWeb.WebApi.Models.Order>>(ordersBusinessModel);
+                return ordersViewModel;
+                #endregion
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
+        }
+
+        /// <summary>
+        /// Permite consultar la información de una orden por su atributo id.
+        /// </summary>
+        /// <returns></returns>
+        [HttpGet]
+        public ServiciosWeb.WebApi.Models.Order Get(int id)
+        {
+            #region Variables
+            ServiciosWeb.Datos.Modelo.Order orderBusinessModel;
+            ServiciosWeb.WebApi.Models.Order orderViewModel;
+            #endregion
+
+            try
+            {
+                #region Consulta el modelo y retorna la data.
+                orderBusinessModel = BD.Orders.FirstOrDefault(x => x.OrderID == id);
+                orderViewModel = Mapper.Map<ServiciosWeb.Datos.Modelo.Order,
+                                             ServiciosWeb.WebApi.Models.Order>(orderBusinessModel);
+
+                return orderViewModel;
+                #endregion
+            }
+            catch (Exception ex)
+            {
+                throw ex;
+            }
         }
     }
 }

@@ -50,21 +50,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Modelo\Categories.cs">
-      <DependentUpon>NorthwindBD.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modelo\Contacts.cs">
-      <DependentUpon>NorthwindBD.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modelo\CustomerDemographics.cs">
-      <DependentUpon>NorthwindBD.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modelo\Customers.cs">
-      <DependentUpon>NorthwindBD.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modelo\Employees.cs">
-      <DependentUpon>NorthwindBD.tt</DependentUpon>
-    </Compile>
     <Compile Include="Modelo\NorthwindBD.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -80,57 +65,37 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>NorthwindBD.edmx</DependentUpon>
     </Compile>
-    <Compile Include="Modelo\Orders.cs">
-      <DependentUpon>NorthwindBD.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modelo\Order_Details.cs">
-      <DependentUpon>NorthwindBD.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modelo\Products.cs">
-      <DependentUpon>NorthwindBD.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modelo\Region.cs">
-      <DependentUpon>NorthwindBD.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modelo\Shippers.cs">
-      <DependentUpon>NorthwindBD.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modelo\Suppliers.cs">
-      <DependentUpon>NorthwindBD.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Modelo\Territories.cs">
+    <Compile Include="Modelo\Order.cs">
       <DependentUpon>NorthwindBD.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
+    <None Include="App.Config" />
     <EntityDeploy Include="Modelo\NorthwindBD.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>NorthwindBD.Designer.cs</LastGenOutput>
     </EntityDeploy>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.Config" />
     <None Include="Modelo\NorthwindBD.edmx.diagram">
       <DependentUpon>NorthwindBD.edmx</DependentUpon>
     </None>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
     <Content Include="Modelo\NorthwindBD.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>NorthwindBD.Context.cs</LastGenOutput>
       <DependentUpon>NorthwindBD.edmx</DependentUpon>
+      <LastGenOutput>NorthwindBD.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Modelo\NorthwindBD.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>NorthwindBD.edmx</DependentUpon>
       <LastGenOutput>NorthwindBD.cs</LastGenOutput>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
