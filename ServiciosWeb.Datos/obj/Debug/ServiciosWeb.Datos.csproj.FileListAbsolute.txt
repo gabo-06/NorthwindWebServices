@@ -9,3 +9,4 @@ C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.Datos\obj\Debug\Servicio
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.csproj.CopyComplete
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.dll
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.pdb
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.csprojAssemblyReference.cache
