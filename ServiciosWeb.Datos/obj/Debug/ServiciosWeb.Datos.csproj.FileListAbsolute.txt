@@ -5,6 +5,7 @@ C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.Datos\bin\Debug\EntityFr
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.Datos\bin\Debug\EntityFramework.SqlServer.dll
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.Datos\bin\Debug\EntityFramework.xml
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.Datos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.csprojAssemblyReference.cache
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.csproj.CoreCompileInputs.cache
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.csproj.CopyComplete
 C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.Datos\obj\Debug\ServiciosWeb.Datos.dll

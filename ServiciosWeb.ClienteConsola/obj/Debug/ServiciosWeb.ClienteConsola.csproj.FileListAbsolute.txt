@@ -1,0 +1,16 @@
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\bin\Debug\ServiciosWeb.ClienteConsola.exe.config
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\bin\Debug\ServiciosWeb.ClienteConsola.exe
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\bin\Debug\ServiciosWeb.ClienteConsola.pdb
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\bin\Debug\ServiciosWeb.Datos.dll
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\bin\Debug\EntityFramework.dll
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\bin\Debug\ServiciosWeb.Datos.pdb
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\bin\Debug\ServiciosWeb.Datos.dll.config
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\bin\Debug\EntityFramework.xml
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\obj\Debug\ServiciosWeb.ClienteConsola.csprojAssemblyReference.cache
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\obj\Debug\ServiciosWeb.ClienteConsola.csproj.CoreCompileInputs.cache
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\obj\Debug\ServiciosWeb.ClienteConsola.csproj.CopyComplete
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\obj\Debug\ServiciosWeb.ClienteConsola.exe
+C:\Users\Gabriel\source\repos\ServiciosWeb\ServiciosWeb.ClienteConsola\obj\Debug\ServiciosWeb.ClienteConsola.pdb

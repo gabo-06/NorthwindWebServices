@@ -203,7 +203,7 @@
     </Compile>
     <Compile Include="Models\CustomerP.cs" />
     <Compile Include="Models\EmployeeP.cs" />
-    <Compile Include="Models\OrderP.cs" />
+    <Compile Include="Models\Order.cs" />
     <Compile Include="Models\ShipperP.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
